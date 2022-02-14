@@ -1,0 +1,52 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+/*Estilos personalizados*/
+body, html {
+    background-color: black;
+    color: whitesmoke;
+    height: 100vh;
+}
+.altura{
+    min-height: 190px;
+    max-height: 200px;
+    align-items: center;
+}
+
+.titulo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+.titulo button{
+    font-family: 'Oswald', sans-serif;
+}
+
+.texto{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-family: 'Arial';
+}
+
+/* Estilos de ID*/
+#colunas{
+    background-image: url('./images/tecnologia1-pb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header{
+    background-image: url('./images/tecnologia2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+#logo{
+    background-image: url('./images/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 80%;
+
+}

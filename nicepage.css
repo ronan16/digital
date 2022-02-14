@@ -4,7 +4,19 @@
  * Copyright 2014-2021 Froala Labs
  */
 
-.fr-clearfix::after {
+
+ /*
+ * Conteúdo extra - Ronan
+ */
+
+.m-2{
+  margin: 2%;
+}
+
+
+ /* Fim do conteudo extra*/
+
+ .fr-clearfix::after {
   clear: both;
   display: block;
   content: "";
